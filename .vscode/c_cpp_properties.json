@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "name": "TC264",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Infineon/AURIX-Studio-1.9.4/plugins/com.infineon.aurix.tools_1.9.4/build_system/tools/Compilers/Tasking_1.1r8/ctc/include",
+                "C:/Infineon/AURIX-Studio-1.9.4/plugins/com.infineon.aurix.tools_1.9.4/build_system/tools/Compilers/Tasking_1.1r8/ctc/include.cpp",
+                "C:/Infineon/AURIX-Studio-1.9.4/plugins/com.infineon.aurix.tools_1.9.4/build_system/tools/Compilers/Tasking_1.1r8/ctc/include.cxx"
+            ],
+            "defines": [
+                "__ACCUM_BIT__[exp]=64",
+                "__ACCUM_INT_BIT__=17",
+                "__ATOMIC_INT_LOCK_FREE__=1",
+                "__ATOMIC_LONG_LOCK_FREE__=1",
+                "__CHAR_BIT__=8",
+                "__CPU__=tc26xb",
+                "__INT_BIT__=32",
+                "__INTPTR_BIT__=32",
+                "__LACCUM_BIT__=64",
+                "__LACCUM_INT_BIT__=17",
+                "__LFRACT_BIT__=32",
+                "__LLONG_BIT__=64",
+                "__LONG_BIT__=32",
+                "__PROF_ENABLE__=0",
+                "__PTRDIFF_BIT__=32",
+                "__ptrdiff_t=long long", // 原本为空
+                "__REG__(x)=reg##x",
+                "__SACCUM_BIT__=64",
+                "__SACCUM_INT_BIT__=17",
+                "__SFRACT_BIT__=16",
+                "__SFRFILE__(cpu)=<sfr/__REG__(cpu).sfr>",
+                "__SHORT_BIT__=16",
+                "__SINGLE_FP__=1",
+                "__SIZE_BIT__=32",
+                "__size_t=unsigned long long", // 原本为空
+                "__TASKING__=1",
+                "__WCHAR_BIT__=16",
+                "__wchar_t=unsigned int", // 原本为空
+                // 从本行开始并非编译器宏定义，仅为让 IntelliSense 正常工作
+                "FILE=char",
+                "__fract=short",
+                "__interrupt(x)=",
+                "__sfract=unsigned short",
+                "__sfrbit16=short",
+                "__sfrbit32=int",
+                "__vector_table(x)="
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
